@@ -21,7 +21,30 @@ $(document).ready(function(){
 
 
 
-$('.pcard').owlCarousel({
+$('.owl-carouse').owlCarousel({
+    loop:true,
+    margin:0,
+      
+    autoplay:true,
+    autoplayTimeout:3000,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+ })
+
+
+
+
+
+$('.').owlCarousel({
     loop:true,
     margin:10,
     responsiveClass:true,
@@ -41,3 +64,8 @@ $('.pcard').owlCarousel({
         }
     }
 })
+
+
+
+                  
+  
